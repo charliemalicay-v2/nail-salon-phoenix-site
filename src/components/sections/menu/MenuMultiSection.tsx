@@ -1,0 +1,296 @@
+import Link from "next/link";
+
+export default function MenuMultiSection() {
+  return (
+      <section className="menu-multi-section" aria-label="Nail enhancement add-ons">
+        <section className="simple-menu-section compact">
+          <header>
+            <p className="eyebrow">
+              {"Builder Gel, Gel-X, Dip & Acrylic"}
+            </p>
+            <h2>
+              Enhancement add-ons.
+            </h2>
+          </header>
+          <div>
+            <article>
+              <div>
+                <h3>
+                  <Link href="/services/nail-art/">
+                    [Design]
+                  </Link>
+                </h3>
+              </div>
+              <b>
+                $10+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  [Shape]
+                </h3>
+              </div>
+              <b>
+                $5+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  [Ombre]
+                </h3>
+              </div>
+              <b>
+                $25+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  [Cat eye colors]
+                </h3>
+              </div>
+              <b>
+                $20+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  [Jelly Colors]
+                </h3>
+              </div>
+              <b>
+                $10+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  [3+ Colors]
+                </h3>
+              </div>
+              <b>
+                $10+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  French
+                </h3>
+              </div>
+              <b>
+                $20+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  Extra LENGTH
+                </h3>
+              </div>
+              <b>
+                $5+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  Take Off w/Services
+                </h3>
+              </div>
+              <b>
+                $10+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  Repair
+                </h3>
+              </div>
+              <b>
+                $5+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  MATTE
+                </h3>
+              </div>
+              <b>
+                $10+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  CHROME
+                </h3>
+              </div>
+              <b>
+                $20+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  Mani Add-on
+                </h3>
+              </div>
+              <b>
+                $15+
+              </b>
+            </article>
+          </div>
+        </section>
+        <section className="simple-menu-section compact">
+          <header>
+            <p className="eyebrow">
+              Acrylic
+            </p>
+            <h2>
+              Acrylic add-ons.
+            </h2>
+          </header>
+          <div>
+            <article>
+              <div>
+                <h3>
+                  <Link href="/services/nail-art/">
+                    Design Nails
+                  </Link>
+                </h3>
+              </div>
+              <b>
+                $15+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  Shaping
+                </h3>
+              </div>
+              <b>
+                $5+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  French
+                </h3>
+              </div>
+              <b>
+                $20+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  Extra LENGTH
+                </h3>
+              </div>
+              <b>
+                $5+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  Take Off w/Services
+                </h3>
+              </div>
+              <b>
+                $10+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  Repair
+                </h3>
+              </div>
+              <b>
+                $5+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  MATTE
+                </h3>
+              </div>
+              <b>
+                $10+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  CHROME
+                </h3>
+              </div>
+              <b>
+                $20+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  Jelly Color
+                </h3>
+              </div>
+              <b>
+                $10+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  Cat-eyes
+                </h3>
+              </div>
+              <b>
+                $20+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  Stiletto/Duck Shape
+                </h3>
+              </div>
+              <b>
+                $10+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  3+ COLOR
+                </h3>
+              </div>
+              <b>
+                $10+
+              </b>
+            </article>
+            <article>
+              <div>
+                <h3>
+                  Mani Add-on
+                </h3>
+              </div>
+              <b>
+                $15+
+              </b>
+            </article>
+          </div>
+        </section>
+      </section>
+  );
+}

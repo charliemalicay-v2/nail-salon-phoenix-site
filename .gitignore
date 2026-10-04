@@ -34,3 +34,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# site-duplicator capture/spec files and Playwright artifacts
+.duplicator/
+.playwright-mcp/
