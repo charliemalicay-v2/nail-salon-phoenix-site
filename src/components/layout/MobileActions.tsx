@@ -1,14 +1,14 @@
-import Link from "next/link";
+
 
 export default function MobileActions() {
   return (
       <nav className="mobile-actions" aria-label="Quick salon actions">
-        <Link href="/booking/">
+        <a href="/booking/">
           <span aria-hidden="true">
             ▣
           </span>
           Reserve Now
-        </Link>
+        </a>
         <a href={"https://www.google.com/maps/search/?api=1&query=Element+Nail+Bar+6022+N+16th+St+Phoenix+AZ+85016"}>
           <span aria-hidden="true">
             ⌖

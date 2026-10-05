@@ -43,9 +43,9 @@ export default function Footer() {
             <Link href="/blog/">
               Nail Care Blog
             </Link>
-            <Link href="/booking/">
+            <a href="/booking/">
               Online Booking
-            </Link>
+            </a>
             <Link href="/about-us/">
               About Us
             </Link>

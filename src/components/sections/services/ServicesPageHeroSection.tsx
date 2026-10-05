@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 
 export default function ServicesPageHeroSection() {
   return (
@@ -18,9 +18,9 @@ export default function ServicesPageHeroSection() {
             Compare exact online-booking names, prices and durations, including eight base pedicure options, then reserve the complete service scope.
           </p>
           <div>
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               Reserve Now
-            </Link>
+            </a>
             <a className="line-link" href="#pricing">
               {"View prices "}
               <span>

@@ -60,9 +60,9 @@ export default function CmsPublicBlocks() {
               Element Nail Bar is located at 6022 N 16th St, Phoenix, AZ 85016, with free on-site parking. Walk-ins are welcome and appointments are recommended.
             </p>
           </div>
-          <Link className="button brass" href="/booking/">
+          <a className="button brass" href="/booking/">
             Book your visit
-          </Link>
+          </a>
         </section>
       </div>
   );

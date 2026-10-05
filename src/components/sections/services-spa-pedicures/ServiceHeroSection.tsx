@@ -36,9 +36,9 @@ export default function ServiceHeroSection() {
             Compare seven Phoenix pedicures at Element Nail Bar on 16th Street, with current prices, durations, massage details and online booking.
           </p>
           <div className="service-hero-actions">
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               Book this service
-            </Link>
+            </a>
             <Link className="line-link" href="/services/">
               {"Compare all services "}
               <span>

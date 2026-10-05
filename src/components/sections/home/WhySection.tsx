@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 
 export default function WhySection() {
   return (
@@ -13,9 +13,9 @@ export default function WhySection() {
           <p>
             A clear appointment starts with the exact service name, published duration and relevant add-ons. Call the front desk if you need current product or sanitation information before booking.
           </p>
-          <Link className="button outline" href="/booking/">
+          <a className="button outline" href="/booking/">
             Reserve your chair
-          </Link>
+          </a>
         </div>
         <div className="why-grid">
           <article>

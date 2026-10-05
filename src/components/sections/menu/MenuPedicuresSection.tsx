@@ -88,14 +88,14 @@ export default function MenuPedicuresSection() {
                   </span>
                 </li>
               </ul>
-              <Link className="pedicure-book-link" href="/booking/">
+              <a className="pedicure-book-link" href="/booking/">
                 <span>
                   Book this pedicure
                 </span>
                 <span aria-hidden="true">
                   →
                 </span>
-              </Link>
+              </a>
             </article>
             <article className="pedicure-card">
               <header>
@@ -174,14 +174,14 @@ export default function MenuPedicuresSection() {
                   </span>
                 </li>
               </ul>
-              <Link className="pedicure-book-link" href="/booking/">
+              <a className="pedicure-book-link" href="/booking/">
                 <span>
                   Book this pedicure
                 </span>
                 <span aria-hidden="true">
                   →
                 </span>
-              </Link>
+              </a>
             </article>
             <article className="pedicure-card">
               <header>
@@ -252,14 +252,14 @@ export default function MenuPedicuresSection() {
                   </span>
                 </li>
               </ul>
-              <Link className="pedicure-book-link" href="/booking/">
+              <a className="pedicure-book-link" href="/booking/">
                 <span>
                   Book this pedicure
                 </span>
                 <span aria-hidden="true">
                   →
                 </span>
-              </Link>
+              </a>
             </article>
           </div>
         </section>
@@ -332,14 +332,14 @@ export default function MenuPedicuresSection() {
                   </span>
                 </li>
               </ul>
-              <Link className="pedicure-book-link" href="/booking/">
+              <a className="pedicure-book-link" href="/booking/">
                 <span>
                   Book this pedicure
                 </span>
                 <span aria-hidden="true">
                   →
                 </span>
-              </Link>
+              </a>
             </article>
             <article className="pedicure-card">
               <header>
@@ -402,14 +402,14 @@ export default function MenuPedicuresSection() {
                   </span>
                 </li>
               </ul>
-              <Link className="pedicure-book-link" href="/booking/">
+              <a className="pedicure-book-link" href="/booking/">
                 <span>
                   Book this pedicure
                 </span>
                 <span aria-hidden="true">
                   →
                 </span>
-              </Link>
+              </a>
             </article>
           </div>
         </section>
@@ -479,14 +479,14 @@ export default function MenuPedicuresSection() {
                   </span>
                 </li>
               </ul>
-              <Link className="pedicure-book-link" href="/booking/">
+              <a className="pedicure-book-link" href="/booking/">
                 <span>
                   Book this pedicure
                 </span>
                 <span aria-hidden="true">
                   →
                 </span>
-              </Link>
+              </a>
             </article>
             <article className="pedicure-card">
               <header>
@@ -549,14 +549,14 @@ export default function MenuPedicuresSection() {
                   </span>
                 </li>
               </ul>
-              <Link className="pedicure-book-link" href="/booking/">
+              <a className="pedicure-book-link" href="/booking/">
                 <span>
                   Book this pedicure
                 </span>
                 <span aria-hidden="true">
                   →
                 </span>
-              </Link>
+              </a>
             </article>
             <article className="pedicure-card">
               <header>
@@ -603,14 +603,14 @@ export default function MenuPedicuresSection() {
                   </span>
                 </li>
               </ul>
-              <Link className="pedicure-book-link" href="/booking/">
+              <a className="pedicure-book-link" href="/booking/">
                 <span>
                   Book this pedicure
                 </span>
                 <span aria-hidden="true">
                   →
                 </span>
-              </Link>
+              </a>
             </article>
           </div>
         </section>

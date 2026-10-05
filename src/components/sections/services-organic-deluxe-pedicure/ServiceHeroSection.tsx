@@ -36,9 +36,9 @@ export default function ServiceHeroSection() {
             Book the $65 Organic Spa Pedicure in Phoenix: a 50-minute botanical spa service with callus care and a 12-minute Argan and Jojoba massage.
           </p>
           <div className="service-hero-actions">
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               Book this service
-            </Link>
+            </a>
             <Link className="line-link" href="/services/">
               {"Compare all services "}
               <span>

@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 
 export default function CmsPublicBlocks() {
   return (
@@ -71,9 +71,9 @@ export default function CmsPublicBlocks() {
               Include removal, repairs, extra length and nail-art time so your artist has enough time for the requested service.
             </p>
           </div>
-          <Link className="button brass" href="/booking/">
+          <a className="button brass" href="/booking/">
             Book now
-          </Link>
+          </a>
         </section>
       </div>
   );

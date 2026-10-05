@@ -36,9 +36,9 @@ export default function ServiceHeroSection() {
             A 70-minute Jelly Spa Pedicure in Phoenix with aloe-and-mint jelly soak, callus care, hydrating wrap and a 20-minute massage.
           </p>
           <div className="service-hero-actions">
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               Book this service
-            </Link>
+            </a>
             <Link className="line-link" href="/services/">
               {"Compare all services "}
               <span>

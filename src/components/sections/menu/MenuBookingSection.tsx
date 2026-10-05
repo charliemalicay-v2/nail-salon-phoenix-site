@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 
 export default function MenuBookingSection() {
   return (
@@ -15,9 +15,9 @@ export default function MenuBookingSection() {
           </p>
         </div>
         <div>
-          <Link className="button brass" href="/booking/">
+          <a className="button brass" href="/booking/">
             Book your visit
-          </Link>
+          </a>
           <a className="button forest" href={"https://www.google.com/maps/search/?api=1&query=Element+Nail+Bar+6022+N+16th+St+Phoenix+AZ+85016"}>
             Directions
           </a>

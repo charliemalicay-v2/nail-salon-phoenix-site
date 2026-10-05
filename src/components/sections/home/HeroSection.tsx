@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 
 export default function HeroSection() {
   return (
@@ -22,9 +22,9 @@ export default function HeroSection() {
             Choose your service. We’ll match you with an artist who specializes in it—then give them the time and clear appointment plan to do it properly.
           </p>
           <div className="hero-actions">
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               Reserve Now
-            </Link>
+            </a>
             <a className="line-link" href="#services">
               {"Explore services "}
               <span>

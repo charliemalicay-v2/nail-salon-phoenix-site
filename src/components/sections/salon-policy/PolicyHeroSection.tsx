@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 
 export default function PolicyHeroSection() {
   return (
@@ -18,9 +18,9 @@ export default function PolicyHeroSection() {
             These policies protect appointment time, support our artists and create a calm, fair experience for every guest.
           </p>
           <div className="policy-hero-actions">
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               Book an appointment
-            </Link>
+            </a>
             <a className="line-link" href="tel:+16026075686">
               {"Questions? Call us "}
               <span>

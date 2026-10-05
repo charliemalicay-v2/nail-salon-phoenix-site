@@ -17,9 +17,9 @@ export default function AuthorityVisitSection() {
             <Link className="button pale" href="/services/spa-pedicures/">
               Compare spa pedicures
             </Link>
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               Reserve an appointment
-            </Link>
+            </a>
           </div>
         </div>
         <picture className="responsive-local-picture">

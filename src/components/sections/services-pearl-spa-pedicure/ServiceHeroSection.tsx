@@ -36,9 +36,9 @@ export default function ServiceHeroSection() {
             A 60-minute Pearl Spa Pedicure in Phoenix with pearl powder, cooling skin care, callus refinement and a 15-minute massage.
           </p>
           <div className="service-hero-actions">
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               Book this service
-            </Link>
+            </a>
             <Link className="line-link" href="/services/">
               {"Compare all services "}
               <span>

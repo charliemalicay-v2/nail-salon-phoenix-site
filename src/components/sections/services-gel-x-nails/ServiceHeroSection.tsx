@@ -36,9 +36,9 @@ export default function ServiceHeroSection() {
             Certified Aprés Gel-X extensions in Phoenix with full-coverage soft-gel tips, precise shaping and professional soak-off.
           </p>
           <div className="service-hero-actions">
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               Book this service
-            </Link>
+            </a>
             <Link className="line-link" href="/services/">
               {"Compare all services "}
               <span>

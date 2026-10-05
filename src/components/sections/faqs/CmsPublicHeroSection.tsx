@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 
 export default function CmsPublicHeroSection() {
   return (
@@ -17,9 +17,9 @@ export default function CmsPublicHeroSection() {
           <p>
             Quick answers about booking, services, pricing, parking and visits to our 16th Street salon in Phoenix.
           </p>
-          <Link className="button brass" href="/booking/">
+          <a className="button brass" href="/booking/">
             Book now
-          </Link>
+          </a>
         </div>
         <span aria-hidden="true">
           16

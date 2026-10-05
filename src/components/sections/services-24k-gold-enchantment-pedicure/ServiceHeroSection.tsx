@@ -36,9 +36,9 @@ export default function ServiceHeroSection() {
             The 85-minute 24K Gold Enchantment Pedicure in Phoenix includes gold-inspired skin care, jade therapy and a 30-minute massage.
           </p>
           <div className="service-hero-actions">
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               Book this service
-            </Link>
+            </a>
             <Link className="line-link" href="/services/">
               {"Compare all services "}
               <span>

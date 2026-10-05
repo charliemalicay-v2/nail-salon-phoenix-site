@@ -13,6 +13,7 @@ import VisitSection from "@/components/sections/home/VisitSection";
 import AreasSection from "@/components/sections/home/AreasSection";
 import IntroSection2 from "@/components/sections/home/IntroSection2";
 import FaqSection from "@/components/sections/home/FaqSection";
+import ImageMarquee from "@/components/motion/ImageMarquee";
 
 export const metadata: Metadata = {
   "title": "Nail Salon in Phoenix, AZ | Pedicures, Gel-X & Builder Gel",
@@ -49,6 +50,7 @@ export default function Page() {
       <HeroSection />
       <IntroSection />
       <ProofStripSection />
+      <ImageMarquee />
       <ServicesSection />
       <ReviewsSection />
       <RitualSection />

@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 
 export default function BookingBannerSection() {
   return (
@@ -13,9 +13,9 @@ export default function BookingBannerSection() {
           Reserve online, or call our front desk if you want help choosing the right service or appointment length.
         </p>
         <div>
-          <Link className="button brass" href="/booking/">
+          <a className="button brass" href="/booking/">
             Book your appointment
-          </Link>
+          </a>
           <a href="tel:+16026075686">
             Call 602-607-5686
           </a>

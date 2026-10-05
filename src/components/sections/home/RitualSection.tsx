@@ -62,9 +62,9 @@ export default function RitualSection() {
             Regular polish is included; optional add-ons are selected separately.
           </p>
           <div className="ritual-actions">
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               View Organic Spa
-            </Link>
+            </a>
             <Link className="line-link dark" href="/services/organic-deluxe-pedicure">
               {"See service details "}
               <span>

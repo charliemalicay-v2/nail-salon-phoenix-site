@@ -36,9 +36,9 @@ export default function ServiceHeroSection() {
             Custom nail art and nail designs in Phoenix, including French, chrome, ombré, minimalist and hand-painted sets.
           </p>
           <div className="service-hero-actions">
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               Book this service
-            </Link>
+            </a>
             <Link className="line-link" href="/services/">
               {"Compare all services "}
               <span>

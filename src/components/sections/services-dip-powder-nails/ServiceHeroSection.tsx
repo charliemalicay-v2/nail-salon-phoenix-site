@@ -36,9 +36,9 @@ export default function ServiceHeroSection() {
             Dip powder and SNS nail services in Phoenix with exact online-booking names, starting prices and appointment times listed below.
           </p>
           <div className="service-hero-actions">
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               Book this service
-            </Link>
+            </a>
             <Link className="line-link" href="/services/">
               {"Compare all services "}
               <span>

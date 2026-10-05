@@ -36,9 +36,9 @@ export default function ServiceHeroSection() {
             A 75-minute CBD Rejuvenating Pedicure in Phoenix with CBD-infused cosmetic products, jade stones and a 25-minute massage.
           </p>
           <div className="service-hero-actions">
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               Book this service
-            </Link>
+            </a>
             <Link className="line-link" href="/services/">
               {"Compare all services "}
               <span>

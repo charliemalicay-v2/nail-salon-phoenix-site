@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 
 export default function MenuPageHeroSection() {
   return (
@@ -18,9 +18,9 @@ export default function MenuPageHeroSection() {
             Every price is a starting point—final pricing depends on length, shape and design. When in doubt, ask your artist.
           </p>
           <div className="menu-hero-actions">
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               Book now
-            </Link>
+            </a>
             <a className="line-link" href="tel:+16026075686">
               {"Call to ask "}
               <span>

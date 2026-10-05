@@ -6,9 +6,10 @@ const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
   {
-    // Markup is ported 1:1 from the original site, which uses plain <img> tags with explicit sizing.
+    // Markup is ported 1:1 from the original site, which uses plain <img> tags with explicit sizing and plain
+    // <a href="/booking/"> links (the booking app is a separate, proxied application, so those need a full page load).
     files: ["src/components/**/*.tsx"],
-    rules: { "@next/next/no-img-element": "off" },
+    rules: { "@next/next/no-img-element": "off", "@next/next/no-html-link-for-pages": "off" },
   },
   // Override default ignores of eslint-config-next.
   globalIgnores([

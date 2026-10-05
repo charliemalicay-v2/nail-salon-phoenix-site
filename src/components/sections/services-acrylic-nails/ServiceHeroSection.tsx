@@ -36,9 +36,9 @@ export default function ServiceHeroSection() {
             Custom acrylic nails at our 16th Street Phoenix salon, built for precise length, confident shape and dependable wear.
           </p>
           <div className="service-hero-actions">
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               Book this service
-            </Link>
+            </a>
             <Link className="line-link" href="/services/">
               {"Compare all services "}
               <span>

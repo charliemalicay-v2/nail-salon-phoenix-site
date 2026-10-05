@@ -36,9 +36,9 @@ export default function ServiceHeroSection() {
             The Deluxe Pedicure in Phoenix costs $49 and includes herbal soaking, sugar exfoliation, callus care, jade stones and an eight-minute massage.
           </p>
           <div className="service-hero-actions">
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               Book this service
-            </Link>
+            </a>
             <Link className="line-link" href="/services/">
               {"Compare all services "}
               <span>

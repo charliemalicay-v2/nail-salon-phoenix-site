@@ -22,9 +22,9 @@ export default function AuthorityFinalSection() {
             Phoenix, AZ 85016
           </address>
           <div className="location-hero-actions">
-            <Link className="button brass" href="/booking/">
+            <a className="button brass" href="/booking/">
               Reserve now
-            </Link>
+            </a>
             <a className="button pale" href={"https://www.google.com/maps/dir/?api=1&destination=Element+Nail+Bar%2C+6022+N+16th+St%2C+Phoenix%2C+AZ+85016"}>
               Directions
             </a>
